@@ -30,3 +30,12 @@ npm run start:dev
 ```
 El servidor estará corriendo en http://localhost:3000. Puedes acceder a la aplicación desde tu navegador.
 
+## API Endpoints
+
+### Comentarios
+- `GET /comments`: Obtener todos los comentarios.
+- `GET /comments/:id`: Obtener un comentario por ID.
+- `POST /comments`: Crear un nuevo comentario.
+- `PUT /comments/:id`: Actualizar un comentario existente.
+- `DELETE /comments/:id`: Eliminar un comentario por ID.
+
